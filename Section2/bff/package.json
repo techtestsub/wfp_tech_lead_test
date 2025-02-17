@@ -1,0 +1,25 @@
+{
+  "name": "food-security-monitory-mvp",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev_": "cross-env NODE_ENV=development APP_ENV=local ./src/app.js",
+    "dev": "node ./src/app.js",
+    "start": "dist/src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "node-cron": "^3.0.3",
+    "winston": "^3.17.0"
+  }
+}
