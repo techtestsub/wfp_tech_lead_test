@@ -19,7 +19,7 @@ WFP is developing an Early Warning System that integrates real-time data from mu
 
 
 ## 1. System Architecture Diagram
-![Please refer the to System Architecture Diagram] (wfp-sad.png)
+![Please refer the to System Architecture Diagram] (/wfp-sad.png)
 
 
 ## 2. Technical Explanation
